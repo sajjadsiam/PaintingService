@@ -1,0 +1,123 @@
+/* Slider Container */
+.slider {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+/* Slides Wrapper */
+.slides {
+  display: flex;
+  width: 300%; /* Adjusted for three slides */
+  height: 100%;
+  animation: slideAnimation 15s infinite; /* Duration for looping through slides */
+}
+
+/* Individual Slide Styling */
+.slide {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Slide Content Container */
+.slide-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+/* Slide Title and Subtitle */
+.slide h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.slide h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+/* Button Group in Slide */
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* Slide Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #7db63e;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #679b30;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #ddd;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #bbb;
+  color: #333;
+}
+
+/* Slide Animation */
+@keyframes slideAnimation {
+  0%,
+  25% {
+    transform: translateX(0); /* First slide */
+  }
+  33.33%,
+  58.33% {
+    transform: translateX(-33.3%); /* Second slide */
+  }
+  66.66%,
+  91.66% {
+    transform: translateX(-66.66%); /* Third slide */
+  }
+  100% {
+    transform: translateX(0); /* Loop back to the first slide */
+  }
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .slide h1 {
+    font-size: 2em;
+  }
+
+  .slide h2 {
+    font-size: 1.2em;
+  }
+
+  .slide-content {
+    padding: 20px;
+  }
+}

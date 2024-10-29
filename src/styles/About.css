@@ -1,0 +1,115 @@
+/* About Section Container */
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* About Content Styling */
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 50px;
+  height: 4px;
+  background-color: #7db63e;
+  margin: 10px 0 20px;
+}
+
+/* Description Paragraph */
+.description {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Service List */
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Service Item */
+.service-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #7db63e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.service-text h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.service-text p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+/* About Image Styling */
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    margin-bottom: 30px;
+  }
+
+  .service-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-icon {
+    margin-bottom: 10px;
+  }
+}

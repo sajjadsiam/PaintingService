@@ -1,0 +1,86 @@
+/* CTA Section Container */
+.cta-section {
+  background-color: #7db63e;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* CTA Content Styling */
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* CTA Title */
+.cta-content h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/* CTA Description */
+.cta-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #fff;
+  color: #7db63e;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* CTA Button Hover Effect */
+.cta-button:hover {
+  background-color: #7db63e;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* Optional Decorative Background */
+.cta-section::after {
+  content: '';
+  background: url('/public/assets/images/about-image.png') no-repeat center
+    right / contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 0;
+  opacity: 0.2; /* Subtle opacity for background image */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 60px 15px;
+  }
+
+  .cta-content h2 {
+    font-size: 2em;
+  }
+
+  .cta-content p {
+    font-size: 1em;
+  }
+
+  .cta-section::after {
+    display: none; /* Hide background image on smaller screens */
+  }
+}

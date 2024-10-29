@@ -1,0 +1,92 @@
+/* Estimate Section Container */
+.estimate-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7db63e;
+  color: #fff;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+/* Text Content Styling */
+.estimate-section .content {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+}
+
+.estimate-section .content h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.estimate-section .content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+/* CTA Button */
+.estimate-section .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #7db63e;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  transition: all 0.3s;
+}
+
+.estimate-section .btn:hover {
+  background-color: #7db63e;
+  color: #fff;
+}
+
+/* Image Container */
+.estimate-section .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estimate-section .image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: -50px; /* Slight overlap for a dynamic effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .estimate-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .estimate-section .content,
+  .estimate-section .image {
+    max-width: 100%;
+  }
+
+  .estimate-section .content h2 {
+    font-size: 2em;
+  }
+
+  .estimate-section .content p {
+    font-size: 1em;
+  }
+
+  .estimate-section .image img {
+    margin-bottom: 0;
+  }
+}

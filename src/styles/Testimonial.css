@@ -1,0 +1,115 @@
+/* Testimonial Section Container */
+.testimonial-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Section Title */
+.testimonial-section h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Testimonial Container */
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Navigation Arrows */
+.arrow {
+  background-color: #ddd;
+  border: none;
+  color: #333;
+  font-size: 1.5em;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.arrow:hover {
+  background-color: #bbb;
+}
+
+.arrow.left {
+  margin-right: 15px;
+}
+
+.arrow.right {
+  margin-left: 15px;
+}
+
+/* Testimonial Content */
+.testimonial-content {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Profile Picture */
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Quote Text */
+.quote {
+  font-size: 1em;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Author Name and Role */
+.author {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 0.9em;
+  color: #7db63e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial-container {
+    flex-direction: column;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .testimonial-content {
+    padding: 20px;
+  }
+
+  .quote {
+    font-size: 0.9em;
+  }
+}

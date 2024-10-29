@@ -1,0 +1,180 @@
+{
+  "topBar": {
+    "phone": "(719) 445-2808",
+    "address": "4578 Marmora Road, Glasgow",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/SajjadSiam13/",
+      "twitter": "#",
+      "youtube": "https://www.youtube.com/@SajjadSiam13",
+      "instagram": "https://www.instagram.com/sajjadsi.am/"
+    }
+  },
+  "navbar": {
+    "logo": "",
+    "menu": [
+      "Home",
+      "About",
+      "Services",
+      "Projects",
+      "Team",
+      "Blog",
+      "Contact"
+    ],
+    "dropdowns": {
+      "services": [
+        "Interior Painting",
+        "Exterior Painting",
+        "Commercial Painting",
+        "Make an Appointment"
+      ],
+      "projects": ["Residential", "Commercial", "Industrial"],
+      "team": [
+        "Alfonso Carrasco",
+        "Mercedes Vargas",
+        "Salvador Mendez",
+        "Ramon Marin",
+        "Noelia Cabrera"
+      ]
+    }
+  },
+  "slider": [
+    {
+      "image": "assets/images/slider1.jpg",
+      "title": "Quality Painting Made Easy",
+      "subtitle": "Call Us Today (719) 445-2808",
+      "buttons": ["Need Emergency Services?", "More About Us"]
+    },
+    {
+      "image": "assets/images/slider2.jpg",
+      "title": "Professional Painting Services",
+      "subtitle": "Your Satisfaction is Our Priority",
+      "buttons": ["Get a Free Estimate", "Learn More"]
+    },
+    {
+      "image": "assets/images/slider3.jpg",
+      "title": "Expert Painting Solutions",
+      "subtitle": "Transform Your Space Today",
+      "buttons": ["Our Services", "Contact Us"]
+    }
+  ],
+  "services": [
+    {
+      "title": "Interior Painting",
+      "image": "assets/images/work1.jpg",
+      "description": "We provide our clients with a wide range of services. We will fix any issue in record time."
+    },
+    {
+      "title": "Exterior Painting",
+      "image": "assets/images/work2.jpg",
+      "description": "Our experts handle any outdoor painting with care and precision."
+    },
+    {
+      "title": "Commercial Painting",
+      "image": "assets/images/work3.jpg",
+      "description": "We specialize in large-scale commercial projects to keep your business looking professional."
+    }
+  ],
+  "estimateSection": {
+    "title": "Free Estimates Delivered In 24 Hours",
+    "description": "Painting Services – whatever needs to be painted, we are here to help you get it done.",
+    "buttonText": "Make an Appointment"
+  },
+  "about": {
+    "description": "When you are looking for 100% dependability, there is no denying the positive aspects of our business.",
+    "services": [
+      {
+        "title": "Commercial Painting",
+        "description": "We have experience in painting any surface from new constructions to cabinets in commercial properties."
+      },
+      {
+        "title": "Interior Painting",
+        "description": "Renew the color of your walls with our experienced interior painting team."
+      },
+      {
+        "title": "Exterior Painting",
+        "description": "Our experts are skilled in outdoor painting for retail stores, schools, and more."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Residential",
+      "image": "assets/images/project1.jpg",
+      "description": "This house was completely maintained by our experts."
+    },
+    {
+      "title": "Garden Redesign",
+      "image": "assets/images/project2.jpg",
+      "description": "This garden was beautifully redesigned by our team."
+    },
+    {
+      "title": "Heating System Installation",
+      "image": "assets/images/project3.jpg",
+      "description": "Our experts handled the heating system maintenance."
+    },
+    {
+      "title": "Office Painting Project",
+      "image": "assets/images/project4.jpg",
+      "description": "This painting project was completed with precision."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David Jones",
+      "role": "Manager",
+      "quote": "It was my first time requesting the assistance of a professional maintenance team. They painted my facade carefully, and my wife is very pleased with the delicate and quick job.",
+      "image": "assets/images/client1.jpg"
+    },
+    {
+      "name": "Sarah Smith",
+      "role": "Homeowner",
+      "quote": "I loved the work AlphaCoat did on our home’s exterior. The painters were courteous and thorough.",
+      "image": "assets/images/client2.jpg"
+    },
+    {
+      "name": "Michael Johnson",
+      "role": "Business Owner",
+      "quote": "AlphaCoat transformed my office space with vibrant colors, creating an energizing atmosphere.",
+      "image": "assets/images/client3.jpg"
+    }
+  ],
+  "ctaSection": {
+    "title": "Get Started Now, Schedule Your Free Estimate",
+    "description": "We have experience in painting any surface, from new constructions to cabinets in commercial properties.",
+    "buttonText": "Make an Appointment"
+  },
+  "footer": {
+    "about": "AlphaCoat is a large company with over 10 years of experience in helping people with their house problems and malfunctions. During our work, we helped a huge number of people and have garnered a reputation as a stable company with a team of skilled experts who don’t fear any difficulties.",
+    "services": [
+      "Electrical",
+      "Plumbing",
+      "Heating",
+      "Painting",
+      "Garden",
+      "Home Maintenance"
+    ],
+    "posts": [
+      {
+        "title": "Do not touch bare wires!",
+        "date": "February 3, 2023",
+        "image": "assets/images/project1.jpg"
+      },
+      {
+        "title": "Tips for being a superman...",
+        "date": "February 3, 2023",
+        "image": "assets/images/project2.jpg"
+      },
+      {
+        "title": "Safe during season’s work",
+        "date": "February 3, 2023",
+        "image": "assets/images/project3.jpg"
+      }
+    ],
+    "socialLinks": [
+      { "icon": "facebook", "url": "#" },
+      { "icon": "twitter", "url": "#" },
+      { "icon": "youtube", "url": "#" },
+      { "icon": "instagram", "url": "#" }
+    ]
+  }
+}

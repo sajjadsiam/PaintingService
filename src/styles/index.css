@@ -1,0 +1,136 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Container Styling for Centered Content */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Global Heading Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: #333;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* Paragraph and Link Styles */
+p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #7db63e;
+}
+
+/* Button Styles */
+button,
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #7db63e;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #679b30;
+  color: #fff;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #ddd;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #bbb;
+  color: #333;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .btn,
+  button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+
+  .container {
+    width: 95%;
+  }
+}

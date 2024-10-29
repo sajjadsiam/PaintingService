@@ -1,0 +1,122 @@
+/* Navbar Container */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Navbar Inner Container */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo img {
+  width: 120px;
+  height: 50px;
+}
+
+/* Navigation Links */
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s;
+}
+
+/* Active & Hover Styles */
+nav ul li a:hover,
+nav ul li a.active {
+  color: #7db63e;
+}
+
+/* Dropdown Styling */
+.dropdown .dropbtn {
+  display: inline-block;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  color: #333;
+  display: block;
+  font-size: 0.9em;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #7db63e;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  /* Stack Navbar Content */
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Adjust Navigation Links */
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+  }
+
+  /* Dropdown in Mobile View */
+  .dropdown .dropdown-content {
+    position: static;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .dropdown-content a {
+    padding: 10px 20px;
+  }
+}
